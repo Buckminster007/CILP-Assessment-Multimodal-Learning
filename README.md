@@ -51,11 +51,12 @@ We analyzed the impact of replacing fixed `MaxPool2d` layers with learnable `Str
 ### Task 5: CILP Assessment Performance
 The final CILP model uses a **Cosine Annealing Scheduler** and **MaxPooling Encoders** to achieve optimal alignment.
 
+
 | Stage | Metric | Target | Achieved |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Contrastive Pretrain** | Val Loss | < 3.5 | **~2.91**|
-| **2. Projector** | MSE | < 2.5 | **0.00** | 
-| **3. Final Classifier** | Accuracy | > 95% | **> 96.6%** |
+| :--- | :--- | :--- | :--- |
+| **1. Contrastive Pretrain** | Val Loss | < 3.5 | **~1.50** |
+| **2. Projector** | MSE | < 2.5 | **0.00** |
+| **3. Final Classifier** | Accuracy | > 95% | **93.0%** |
 
 ## 5. Instructions to Reproduce
 
